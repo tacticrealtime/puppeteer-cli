@@ -1,0 +1,17 @@
+{
+  "name": "puppeteer-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "private": true,
+  "author": "Alexander Moon",
+  "license": "PRIVATE",
+  "dependencies": {
+    "puppeteer": "5.5.0",
+    "yargs": "16.2.0"
+  },
+  "bin": {
+    "puppeteer-cli": "./index.js"
+  }
+}
