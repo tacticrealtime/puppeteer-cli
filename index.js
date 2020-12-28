@@ -14,9 +14,4 @@ if (!fs.existsSync(argv.file)) {
     return console.log(`${argv.file} was not found`)
 }
 
-const fileAbs = path.resolve(argv.file)
-// process.chdir('/tmp');
-process.chdir(path.dirname(__filename))
-console.log(__dirname)
-// console.log(argv.file, path.resolve(argv.file))
-require(fileAbs)
+require(path.resolve(argv.file))
